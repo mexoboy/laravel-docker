@@ -8,5 +8,4 @@ RUN apk add --no-cache \
  && docker-php-ext-install \
     bcmath \
     pdo_pgsql \
-    zip \
- && composer global require hirak/prestissimo
+    zip
